@@ -1,0 +1,58 @@
+<!-- Crie exemplos de utilização das tags mais comuns na HTML: metadados, separação de conteúdo, texto,
+     imagem e formulário. É necessário pelo menos dois exemplos de cada tipo. -->
+     <!DOCTYPE html>
+     <html lang="pt-br">
+     <head>
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!-- Tag de metadados responsável por mostrar o título da página na aba ou janela do navegador. -->
+         <title>Code Park 16/11</title>
+         <!-- Tag de metadados responsável por aplicar estilos CSS (sem utilizar um arquivo externo) em um documento HTML. -->
+         <style>
+             h1, h2{color:black; text-align: center;}
+             div{display: inline-block;}
+             .brDiv{color: green; font-size: large; font-weight: bold; text-align: center; margin-inline-start: 30%;}
+             .srDiv{color: red; font-size: large; font-weight: bold; text-align: center;}
+             footer{text-align: center; font-weight: bold;}        
+         </style>
+     </head>
+     <body>
+         <!-- Tag de separação de conteúdo responsável por definir o cabeçalho da página. -->
+         <header>
+             <!-- Tag de separação de conteúdo responsável pelos níveis de cabeçalhos ou itens de destaque da página, 
+                 vai de h1 até h6 e, por convenção, o ideal é apenas ter 1 h1 por página. -->
+             <h1>Copa do Mundo</h1>
+         </header>
+         <main>
+             <h2>Brasil x Sérvia</h2>
+             <!-- Tag de texto responsável por dividir a página em blocos de conteúdo que pode receber tanto texto, quanto 
+                 demais tipos de conteúdo. -->
+             <div class="brDiv">
+                 <!-- Tag de texto responsável por criar um parágrafo de texto na página. -->
+                 <p>Brasil</p>
+                 <!-- Tag de imagem responsável por incluir imagens na página. -->
+                 <img src="img/logo-br.png" width="250px" height="350px">
+             </div>
+             <div class="srDiv">
+                 <p>Sérvia</p>
+                 <img src="img/logo-sr.png" width="250px" height="350px">
+             </div>
+         </main>
+         <footer>
+             <br><br>
+             <!-- Tag de formulário responsável por criar os formulários que você pode utilizar numa página. -->
+             <form>
+                 <label for="selectName">Qual você acha que vai ser o resultado? </label>
+                 <!-- Tag de formulário responsável por criar uma lista de opções selecionável. -->
+                 <select name="selecoes" id="selectName">
+                     <option>Brasil</option>
+                     <option>Sérvia</option>
+                     <option>Empate</option>
+                 </select>
+                 <br><br>
+                 <input type="submit" value="Enviar">
+             </form>
+         </footer>    
+     </body>
+     </html>
