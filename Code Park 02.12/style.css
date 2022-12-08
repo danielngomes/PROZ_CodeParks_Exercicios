@@ -31,6 +31,15 @@
     padding-bottom: 15px;
 }
 
+.mainsec_flexbox {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mainsec_flexbox > .mainsec_text {
+    font-size: 18px;
+}
+
 .mainsec_text {
     padding-bottom: 15px;
     text-align: justify;
@@ -39,15 +48,15 @@
 .mainsec_img {
     height: 400px;
     width: 300px;
-    margin-left: 38%;
-    padding: 15px 0px;
+    padding-bottom: 15px;
+    padding-right: 15px;
 }
 
 .mainsec_img_dupla {
     height: 400px;
     width: 300px;
-    margin-left: 18%;
-    padding: 15px 0px;
+    padding-bottom: 15px;
+    padding-right: 15px;
 }
 
 a {
