@@ -1,5 +1,3 @@
-# PROZ - CodeParks e Exercícios
- **Repositório para armazenar Code Parks e Exercícios da PROZ**
- ---
- * 1 - Code Park 16/11
- * 2 - Code Park 21/11
+# PROZ - Code Parks e Extras
+Deploy dos Code Parks e Extras do curso do Portal Tech ministrado pela PROZ
+## https://danielngomes.github.io/PROZ_CodeParks_Exercicios
